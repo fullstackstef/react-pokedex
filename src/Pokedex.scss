@@ -4,12 +4,16 @@
     &-winner {
         color: green;
         font-family: Anton;
+        font-size: 1.75rem;
+        letter-spacing: 0.125rem;
         text-align: center;
     }
 
     &-loser {
         color: red;
         font-family: Anton;
+        font-size: 1.75rem;
+        letter-spacing: 0.125rem;
         text-align: center;
     }
 }

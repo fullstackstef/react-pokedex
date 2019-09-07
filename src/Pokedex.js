@@ -22,7 +22,7 @@ class Pokedex extends Component {
                 {
                     data.map((p) => (
                         <Pokecard
-                            key={p.id++} 
+                            key={p.name} 
                             name={p.name}
                             img={`${pokemonImg}/${padToThree(p.id)}.png`}
                             type={p.type}
