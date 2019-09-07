@@ -1,0 +1,55 @@
+//GENERAL
+
+.pokecard {
+    align-items: center;
+    background: #e5cdca;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+
+    &-title {
+        color: blue;
+        font-size: 1rem;
+    }
+
+    &-info {
+        text-align: center;
+    }
+
+    &-img {
+        width: 5rem;
+    }
+
+    &-img:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    }
+    
+    &:hover {
+        box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+        transform: scale(1.125);
+        transition: all 500ms ease-in-out;
+    }
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+//MEDIA QUERIES

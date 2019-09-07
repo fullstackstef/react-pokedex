@@ -1,0 +1,31 @@
+//GENERAL
+
+.pokedex {
+    &-winner {
+        color: green;
+        font-family: Anton;
+        text-align: center;
+    }
+
+    &-loser {
+        color: red;
+        font-family: Anton;
+        text-align: center;
+    }
+}
+
+.pokedex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+    @media (max-width: 575.98px) {
+        flex-direction: column;
+    }
+    @media (max-width: 767.98px) {
+        flex-direction: column;
+    }
+}
+
+
+//MEDIA QUERIES
